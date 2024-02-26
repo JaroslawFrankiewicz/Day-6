@@ -10,10 +10,10 @@ namespace Day_6
     {
         private List<int> score = new List<int>();
 
-        public Employee(string firstName, string sureName, int age)
+        public Employee(string firstName, string surName, int age)
         {
             this.FirstName = firstName;
-            this.SureName = sureName;
+            this.SurName = surName;
             this.Age = age;
         }
         public string FirstName
@@ -21,7 +21,7 @@ namespace Day_6
             get;
             private set;
         }
-        public string SureName
+        public string SurName
         {
             get;
             private set;
